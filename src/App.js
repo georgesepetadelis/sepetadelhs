@@ -2,21 +2,23 @@ import logo from './logo.svg';
 import TopNavBar from './Components/TopBarComponent';
 import './css/App.css';
 import programmer_icon from './assets/programmer_icon.png';
+import Projects from './Components/pages/Projects';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Components/pages/Home';
+import AboutMe from './Components/pages/AboutMe';
+import Contact from './Components/pages/Contact';
 
 function App() {
   return (
-    <div className="App">
-        <TopNavBar />
-        <div className='title'>
-          <p className='hello-title' >Hello, i'm </p>
-          <h1 className='name-title'>George Sepetadelhs</h1>
-          <p className='desc-title' >Mobile and game developer</p>
-        </div>
-        <div className='programmer-logo-div'>
-          <img className='programmer-logo' src={programmer_icon} />
-        </div>
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/projects" element={<Projects/>}/>
+        <Route exact path='/about' element={<AboutMe />} />
+        <Route exact path='/contact' element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;
