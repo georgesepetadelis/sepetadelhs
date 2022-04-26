@@ -4,7 +4,6 @@ function AboutMe() {
     return(
         <div>
             <TopNavBar />
-            <h1>About me</h1>
         </div>
     )
 }

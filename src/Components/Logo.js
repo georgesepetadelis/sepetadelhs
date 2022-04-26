@@ -3,7 +3,7 @@ import mylogo from '../assets/logo_icon.png'
 
 const Logo = ({currentPageName}) => {
     return (
-        <p className='logo'>{currentPageName}</p>
+        <h1 className='logo'>{currentPageName}</h1>
     )
 }
 

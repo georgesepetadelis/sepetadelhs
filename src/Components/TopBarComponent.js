@@ -19,7 +19,6 @@ function getCurrentPageTitle(currentPath) {
             return "Home"
             break;
     }
-    return ""
 }
 
 function TopNavBar() {

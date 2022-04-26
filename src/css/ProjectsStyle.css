@@ -1,0 +1,21 @@
+
+.projects-div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50%;
+}
+
+.sm-logo {
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.p1-container {
+    height: 25%;
+    background: white;
+    align-self: flex-end;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translate(100%, -50%);
+}
