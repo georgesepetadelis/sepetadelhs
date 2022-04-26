@@ -1,23 +1,22 @@
 import '../css/TopBarStyle.css'
-import PageTitle from './Logo'
-import { Outlet, Link } from "react-router-dom";
+import PageTitle from './PageNameComponent'
 import { useLocation, useNavigate } from "react-router-dom";
 import React from 'react';
 
 function getCurrentPageTitle(currentPath) {
     switch (currentPath) {
         case "/projects":
+            document.title = "George Sepetadelis | My projects"
             return "My projects"
-            break;
         case "/about":
+            document.title = "George Sepetadelis | About me"
             return "About me"
-            break;
         case "/contact":
+            document.title = "George Sepetadelis | Contact"
             return "Contact with me"
-            break;
         default:
+            document.title = "George Sepetadelis | Home"
             return "Home"
-            break;
     }
 }
 

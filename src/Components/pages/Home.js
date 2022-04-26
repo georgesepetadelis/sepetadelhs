@@ -1,10 +1,10 @@
 import TopNavBar from '../TopBarComponent';
 import programmer_icon from '../../assets/programmer_icon.png';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
   const navigate = useNavigate();
+  document.title = "George Sepetadelis | Home"
     return (
       <div className="App">
         <TopNavBar />
