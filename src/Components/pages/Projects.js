@@ -13,13 +13,15 @@ function Projects() {
         <div className="projects-div">
             
             <div className='p1-container'>
-                <img className="sm-logo" src={socialmeme} height="100" />
-                <p>social Meme: An open source social media to share your favorite memes and get rewarded.</p>
+                
             </div>
 
             <div className='p2-container'>
+                <div className="logo-container">
                 <img className="sm-logo" src={socialmeme} height="100" />
-                <p>social Meme: An open source social media to share your favorite memes and get rewarded.</p>
+                </div>
+                <h3>Social Meme</h3>
+                <p>An open source social media to share your favorite memes and get rewarded.</p>
             </div>
 
             <div className='p3-container'>

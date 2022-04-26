@@ -1,29 +1,53 @@
 
 .projects-div {
-    transform: translateY(50%);    
+    transform: translateY(50%);   
 }
 
-.sm-log {
-    background: black;
+.p1-container {
+    float: right;
+    height: 270px;
+    margin-right: 3%;
+    width: 210px;
+    background: rgba(255, 255, 255, 0.439);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.377) 5px 5px 5px 5px;
 }
 
-.p1-container  {
-    float:right;
-    width:180px;
-    background-color:white;
-    border:solid black;
+.p2-container {
+    float: right;
+    height: 270px;
+    margin-right: 3%;
+    width: 210px;
+    background: rgba(255, 255, 255, 0.439);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.377) 5px 5px 5px 5px;
 }
 
-.p2-container  {
-    float:right;
-    width:180px;
-    background-color:white;
-    border:solid black;
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p2-container img{
+    padding: 10px;
+}
+
+.p2-container p {
+    padding-left: 8px;
+    padding-right: 8px;    
+}
+
+.p2-container h3 {
+    padding-left: 8px
 }
 
 .p3-container {
-    float:right;
-    width:180px;
-    background-color:white;
-    border:solid black;
+    float: right;
+    height: 270px;
+    margin-right: 3%;
+    width: 210px;
+    background: rgba(255, 255, 255, 0.439);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.377) 5px 5px 5px 5px;
 }
