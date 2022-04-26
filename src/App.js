@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import TopNavBar from './Components/TopBarComponent';
-import './css/App.css';
+import './css/HomeStyle.css';
 import programmer_icon from './assets/programmer_icon.png';
 import Projects from './Components/pages/Projects';
 import { BrowserRouter, Routes, Route } from "react-router-dom";

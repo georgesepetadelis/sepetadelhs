@@ -11,10 +11,22 @@ function Projects() {
           <p className='desc-title'>Some of the projects i've worked on</p>
         </div>
         <div className="projects-div">
+            
             <div className='p1-container'>
                 <img className="sm-logo" src={socialmeme} height="100" />
-                <p>social Meme: An open source<br />social media<br />to share your favorite<br />memes and get rewarded.</p>
+                <p>social Meme: An open source social media to share your favorite memes and get rewarded.</p>
             </div>
+
+            <div className='p2-container'>
+                <img className="sm-logo" src={socialmeme} height="100" />
+                <p>social Meme: An open source social media to share your favorite memes and get rewarded.</p>
+            </div>
+
+            <div className='p3-container'>
+                <img className="sm-logo" src={socialmeme} height="100" />
+                <p>social Meme: An open source social media to share your favorite memes and get rewarded.</p>
+            </div>
+
         </div>
       </div>
     )

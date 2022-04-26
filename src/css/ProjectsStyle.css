@@ -1,21 +1,29 @@
 
 .projects-div {
-    display: flex;
-    flex-direction: column;
-    margin-right: 50%;
+    transform: translateY(50%);    
 }
 
-.sm-logo {
-    text-align: center;
-    transform: translate(-50%, -50%);
+.sm-log {
+    background: black;
 }
 
-.p1-container {
-    height: 25%;
-    background: white;
-    align-self: flex-end;
-    color: white;
-    position: absolute;
-    top: 50%;
-    transform: translate(100%, -50%);
+.p1-container  {
+    float:right;
+    width:180px;
+    background-color:white;
+    border:solid black;
+}
+
+.p2-container  {
+    float:right;
+    width:180px;
+    background-color:white;
+    border:solid black;
+}
+
+.p3-container {
+    float:right;
+    width:180px;
+    background-color:white;
+    border:solid black;
 }
