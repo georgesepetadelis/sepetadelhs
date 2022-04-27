@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800);
 
 .projects-div {
     transform: translateY(50%);
@@ -19,7 +20,7 @@
     float: right;
     margin-right: 1.5%;
     width: 14%;
-    background: rgba(0, 0, 0, 0.706);
+    background: rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.209) 5px 5px 5px 5px;
 }
@@ -30,20 +31,21 @@
     align-items: center;
 }
 
-.p2-container img{
+.p2-container img {
     padding: 10px;
 }
 
 .p2-container p {
     font-weight: bold;
-    color: white;
+    color: rgb(82, 82, 82);
     margin-top: 5px;
+    margin-bottom: 4%;
 }
 
 .p2-container h3 {
     margin-top: 8px;
     font-size: 3.5vh;
-    color: rgb(0, 115, 255);
+    color: rgb(0, 0, 0);
 }
 
 .p3-container {
@@ -57,7 +59,29 @@
 }
 
 .project-btn {
-    margin-bottom: 0px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 4%;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    margin-right: 30px;
+    border-radius: 12px;
+    border: solid black 2px;
+    border: none;
+}
+
+.project-btn:hover {
+    cursor: pointer;
+    animation: project-button-anim 0.5s forwards;
+}
+
+@keyframes project-button-anim {
+    from {}
+    to {
+        cursor: pointer;
+        background: rgb(82, 82, 83);
+    }
 }

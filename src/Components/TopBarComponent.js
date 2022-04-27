@@ -1,7 +1,7 @@
 import '../css/TopBarStyle.css'
 import PageTitle from './PageNameComponent'
 import { useLocation, useNavigate } from "react-router-dom";
-import React from 'react';
+import React, { useState } from 'react';
 
 function getCurrentPageTitle(currentPath) {
     switch (currentPath) {
@@ -21,20 +21,22 @@ function getCurrentPageTitle(currentPath) {
 }
 
 function TopNavBar() {
+    
     const navigate = useNavigate();
     const location = useLocation();
+    
     return (
         <div className="container">
             
             <div className='logo-div'>
-                <PageTitle currentPageName={getCurrentPageTitle(location.pathname)} />
+                <PageTitle currentPageName={ getCurrentPageTitle(location.pathname) } />
             </div>
 
             <div className='navigation-buttons'>
-                <button onClick={ (event) => { navigate("/", { replace: true })} }>Home</button>
-                <button onClick={ (event) => { navigate("/projects", { replace: true })} }>My Projects</button>
-                <button onClick={ (event) => { navigate("/about", { replace: true })} }>About me</button>
-                <button onClick={ (event) => { navigate("/contact", { replace: true })} }>Contact</button>
+                <button id='homeNavButton' className='nav-button' onClick={ (event) => { navigate("/", { replace: true })} }>Home</button>
+                <button id='myProjectsNavButton' className='nav-button' onClick={ (event) => { navigate("/projects", { replace: true })} }>My Projects</button>
+                <button id='aboutMeNavButton' className='nav-button' onClick={ (event) => { navigate("/about", { replace: true })} }>About me</button>
+                <button id='contactNavButton' className='nav-button' onClick={ (event) => { navigate("/contact", { replace: true })} }>Contact</button>
             </div>
         
         </div>

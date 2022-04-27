@@ -2,6 +2,7 @@ import TopNavBar from "../TopBarComponent";
 import '../../css/AboutMeStyle.css'
 import github_icon from '../../assets/github_icon.png'
 import instagram_icon from '../../assets/instagram_icon.png'
+import my_picture from '../../assets/my_picture.jpg'
 
 function AboutMe() {
     return(
@@ -28,7 +29,7 @@ function AboutMe() {
                 </header>
 
                 <div class="profile-bio">
-                    <p>16 y/o and i'm from Greece and. I have experience with many programming languages and Frameworks for all mobile platforms like Flutter, React-Native and also native Android and iOS development with Java and Swift. Also i currently working on Unreal engine (using C++ and blueprints) and Unity for some big projects. </p>
+                    <p>16 y/o and i'm from Greece. I have experience with many programming languages and Frameworks for all mobile platforms like Flutter, React-Native and also native Android and iOS development with Java and Swift. Also i currently working on Unreal engine (using C++ and blueprints) and Unity for some big projects. </p>
                 </div>
 
                 <ul class="profile-social-links">

@@ -32,16 +32,16 @@ function Projects() {
                 </div>
                 <h3>iGrow Goals</h3>
                 <p>iGrow goals helps you to write, implement and achieve your professional and personal goals, to help make sure you achieve them.</p>
-                <button className="project-btn">Download now</button>
+                <button onClick={ (event) => { window.location.replace('https://play.google.com/store/apps/details?id=com.george.igrow') } } className="project-btn">Download now</button>
             </div>
-
+            
             <div className='p2-container'>
                 <div className="logo-container">
                 <img className="sm-logo" src={socialmeme_icon} height="100" />
                 </div>
                 <h3>Social Meme</h3>
                 <p>An open source social media to upload, download or just see your favorite memes for free and get rewarded.</p>
-                <button className="project-btn">Download now</button>
+                <button onClick={ (event) => { window.location.replace('https://play.google.com/store/apps/details?id=com.george.socialmeme') } } className="project-btn">Download now</button>
             </div>
 
         </div>
