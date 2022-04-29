@@ -22,14 +22,14 @@ function AboutMe() {
                 <div class="mask-shadow"></div>
                 <header>
                     <a href="https://github.com/georgesepetadelis/">
-                    <img src="https://pbs.twimg.com/profile_images/1377349779131396096/A_f2H35A_400x400.jpg" />
+                    <img src={my_picture} />
                     </a>
                     <h1 className="name">GEORGE SEPETADELIS</h1>
                     <h2>Software engineer</h2>
                 </header>
 
                 <div class="profile-bio">
-                    <p>16 y/o and i'm from Greece. I have experience with many programming languages and Frameworks for all mobile platforms like Flutter, React-Native and also native Android and iOS development with Java and Swift. Also i currently working on Unreal engine (using C++ and blueprints) and Unity for some big projects. </p>
+                    <p>16 y/o and i'm from Greece. I have experience with many programming languages and Frameworks for all mobile platforms like Flutter, React-Native and also native Android and iOS development with Java and Swift. Also i currently working on Unreal engine and Unity for some big projects. </p>
                 </div>
 
                 <ul class="profile-social-links">

@@ -87,7 +87,7 @@ img{
 }
 
 .profile-card header h2 {
-  font-size:14px;
+  font-size: 14px;
   color:#acacac;
   text-transform:uppercase;
   margin:0;
@@ -104,7 +104,7 @@ img{
 .profile-social-links {
   margin:0;
   padding:0;
-  list-style:none;
+  list-style: none;
 }
 
 .profile-social-links li {
@@ -126,13 +126,13 @@ img{
 }
 
 .profile-social-links li a img {
-  width:35px;
-  height:35px;
-  margin:10px auto 0;
+  width: 35px;
+  height: 35px;
+  margin: 10px auto 0;
 }
 
 .profile-social-links li a:hover {
-  background:#ddd;
+  background: #ddd;
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
 }

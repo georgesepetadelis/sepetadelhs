@@ -13,7 +13,7 @@ function getCurrentPageTitle(currentPath) {
             return "About me"
         case "/contact":
             document.title = "George Sepetadelis | Contact"
-            return "Contact with me"
+            return "Contact me"
         default:
             document.title = "George Sepetadelis | Home"
             return "Home"

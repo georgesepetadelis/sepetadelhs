@@ -14,7 +14,7 @@ function Home() {
             <p className='hello-title' >Hello, i'm </p>
             <h1 className='name-title'>George Sepetadelis</h1>
             <p className='desc-title' >Mobile and game developer</p>
-            <button className='action-button-home' onClick={ (event) => { navigate("/contact", { replace: true })} }>Contact with me</button>
+            <button className='action-button-home' onClick={ (event) => { navigate("/contact", { replace: true })} }>Contact me</button>
           </div>
 
           <div className='programmer-logo-container'>
