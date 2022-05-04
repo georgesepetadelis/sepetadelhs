@@ -14,10 +14,10 @@ function Contact() {
                 <p className='desc-title'>Do you want to work together? <br />I will be glad to hear your ideas</p>
             </div>
 
-            <div className="contact-card-container">
-            <aside class="profile-card">
+            <div className="contact-card-container-desktop">
+            <aside class="profile-card-desktop">
 
-                <div class="mask-shadow"></div>
+                <div class="mask-shadow-desktop"></div>
                 <header>
                     <a href="https://github.com/georgesepetadelis/">
                     <img src="https://pbs.twimg.com/profile_images/1377349779131396096/A_f2H35A_400x400.jpg" />
@@ -26,14 +26,14 @@ function Contact() {
                     <h2>Software engineer</h2>
                 </header>
 
-                <div class="profile-bio">
+                <div class="profile-bio-desktop">
                     <a href="mailto:giorgossepetadelis11@gmail.com">
                         <button className="send-email-button">SEND ME AN EMAIL</button>
                     </a>
                     <h3>OR</h3>
                 </div>
 
-                <ul class="profile-social-links">
+                <ul class="profile-social-links-desktop">
                     <li>
                     <a href="https://github.com/georgesepetadelis/">
                         <img src={github_icon} />

@@ -1,0 +1,58 @@
+.title-div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.title-div img {
+    height: 20vh;
+    border-radius: 80px;
+    box-shadow: rgb(38, 123, 146) 0px 0px 8px 2px;
+}
+
+.title-div h2 {
+    font-size: 4vh;
+    margin-top: 5%;
+    font-weight: normal;
+}
+
+.title-div h1 {
+    font-size: 4.5vh;
+    margin-top: -1%;
+}
+
+.title-div p {
+    color: rgb(104, 104, 104);
+    font-size: large;
+    font-weight: bold;
+}
+
+.title-div button {
+    width: 50%;
+    margin-top: 4%;
+    background: linear-gradient(30deg, rgb(5, 11, 175), rgb(0, 162, 255));
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5vh;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+}
+
+.title-div button:hover {
+    background: white;
+    color: black;
+    animation: contactme-button-anim 1s forwards;
+}
+
+@keyframes conatctme-button-anim {
+    from {}
+    to {
+        background: rgb(82, 82, 83);
+    }
+}

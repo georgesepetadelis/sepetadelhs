@@ -8,7 +8,7 @@ img{
     margin-top: 7%;
 }
 
-.info-card-container {
+.info-card-container-desktop {
   width: 90%;
   position: relative;
   display: inline-flex;
@@ -16,9 +16,9 @@ img{
   align-items: flex-end;
 }
 
-.profile-card {
+.profile-card-desktop {
   position: absolute;
-  width: 20%;
+  width: 30%;
   margin-top: 8%;
   padding: 40px 30px 30px;
   background: #fff;
@@ -28,7 +28,7 @@ img{
   transition: all 200ms ease;
 }
 
-.mask-shadow {
+.mask-shadow-desktop {
   z-index: -1 !important;
   width: 95%;
   height: 12px;
@@ -44,23 +44,23 @@ img{
   transition: all 400ms ease-in;
 }
 
-.profile-card:hover {
+.profile-card-desktop:hover {
   box-shadow: 0px 30px 60px -5px rgba(55,55,71,0.3);
   transform: translate3d(0,-5px,0);
 }
 
-.mask-shadow {
+.mask-shadow-desktop {
     opacity: 1;
     box-shadow: 0px 30px 60px -5px rgba(55,55,71,0.3);
     position: absolute;
 }
 
-.profile-card header {
+.profile-card-desktop header {
   display: block;
   margin-bottom: 10px;
 }
 
-.profile-card header a {
+.profile-card-desktop header a {
   width: 150px;
   height: 150px;
   display: block;
@@ -68,32 +68,32 @@ img{
   margin: -120px auto 0;
   box-shadow: 0 0 0 5px #0084ff;
 }
-.profile-card header a img {
+.profile-card-desktop header a img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
 }
 
-.profile-card:hover header a, .profile-card header a:hover {
+.profile-card-desktop:hover header a, .profile-card-desktop header a:hover {
   animation: bounceOut .4s linear; 
   -webkit-animation: bounceOut .4s linear;
 }
 
-.profile-card header h1 {
+.profile-card-desktop header h1 {
   font-size:20px;
   color:#444;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
 
-.profile-card header h2 {
+.profile-card-desktop header h2 {
   font-size: 14px;
   color:#acacac;
   text-transform:uppercase;
   margin:0;
 }
 
-.profile-bio {
+.profile-bio-desktop {
   font-size:14px;
   color:#a5a5a5;
   line-height:1.7;
@@ -101,18 +101,18 @@ img{
   margin-bottom:30px;
 }
 
-.profile-social-links {
+.profile-social-links-desktop {
   margin:0;
   padding:0;
   list-style: none;
 }
 
-.profile-social-links li {
+.profile-social-links-desktop li {
   display: inline-block;
   margin: 0 10px;
 }
 
-.profile-social-links li a {
+.profile-social-links-desktop li a {
   width: 55px;
   height:55px;
   display:block;
@@ -125,13 +125,13 @@ img{
   transform-style: preserve-3d;
 }
 
-.profile-social-links li a img {
+.profile-social-links-desktop li a img {
   width: 35px;
   height: 35px;
   margin: 10px auto 0;
 }
 
-.profile-social-links li a:hover {
+.profile-social-links-desktop li a:hover {
   background: #ddd;
   transform: scale(1.2);
   -webkit-transform: scale(1.2);

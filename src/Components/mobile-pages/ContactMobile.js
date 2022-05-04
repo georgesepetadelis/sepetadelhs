@@ -1,25 +1,20 @@
-import TopNavBar from "../TopBarComponent";
-import '../../css/AboutMeStyle.css'
+import TopNavBarMobileComponent from "../TopNavMobileComponent";
 import github_icon from '../../assets/github_icon.png'
 import instagram_icon from '../../assets/instagram_icon.png'
 import my_picture from '../../assets/my_picture.jpg'
+import '../../css-mobile/ContactStyle.css'
 
-function AboutMe() {
-    return(
+function ContactMobile() {
+    return (
         <div>
+            
+            <TopNavBarMobileComponent />
 
-            <TopNavBar />
+            <div className="info-card-container">
 
-            <div className='title'>
-                <h1 className='name-title'>More about me</h1>
-                <p className='desc-title'>See some informations about me</p>
-            </div>
+            <aside class="profile-card">
 
-            <div className="info-card-container-desktop">
-
-            <aside class="profile-card-desktop">
-
-                <div class="mask-shadow-desktop"></div>
+                <div class="mask-shadow"></div>
                 <header>
                     <a href="https://github.com/georgesepetadelis/">
                     <img src={my_picture} />
@@ -28,11 +23,13 @@ function AboutMe() {
                     <h2>Software engineer</h2>
                 </header>
 
-                <div class="profile-bio-desktop">
-                    <p>16 y/o and i'm from Greece. I have experience with many programming languages and Frameworks for all mobile platforms like Flutter, React-Native and also native Android and iOS development with Java and Swift. Also i currently working on Unreal engine and Unity for some big projects. </p>
-                </div>
+                <a href="mailto:giorgossepetadelis11@gmail.com">
+                        <button className="send-email-button">SEND ME AN EMAIL</button>
+                    </a>
 
-                <ul class="profile-social-links-desktop">
+                <h3 className="or-text">OR</h3>
+
+                <ul class="profile-social-links">
                     <li>
                     <a href="https://github.com/georgesepetadelis/">
                         <img src={github_icon} />
@@ -57,8 +54,7 @@ function AboutMe() {
             </div>
 
         </div>
-
     )
 }
 
-export default AboutMe;
+export default ContactMobile;

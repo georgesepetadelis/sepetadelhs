@@ -1,0 +1,70 @@
+
+.nav-container-mobile {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.projects-bg {
+    background: linear-gradient(30deg, #000000 ,#053254);
+}
+
+.title-div-projects {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.title-div-projects img {
+    height: 25vh;
+    margin-bottom: 7%;
+}
+
+.title-div-projects h2 {
+    font-size: 4vh;
+    margin-top: 5%;
+    font-weight: normal;
+}
+
+.title-div-projects h1 {
+    font-size: 4.5vh;
+    margin-top: -1%;
+}
+
+.title-div-projects p {
+    color: rgb(104, 104, 104);
+    font-size: large;
+    font-weight: bold;
+}
+
+.title-div button:hover {
+    background: white;
+    color: black;
+    animation: contactme-button-anim 1s forwards;
+}
+
+.project-container-mobile {
+    background: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10%;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.project-container-mobile h3{
+    font-size: 5vh;
+    margin-top: 2vh;
+}
+
+@keyframes projects-logo-anim {
+    from {
+      margin-top: 0px;
+    }
+    to {
+      margin-top: 20px;
+    }
+  }

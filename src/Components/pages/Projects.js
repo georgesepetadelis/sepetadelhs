@@ -22,17 +22,8 @@ function Projects() {
                 <img className="sm-logo" src={mhfa_icon} height="100" />
                 </div>
                 <h3>iGrow MHFA</h3>
-                <p>Using a simple, effective easy-to-use format the program takes the most common mental health concerns and will guide you.</p>
+                <p>Using a simple, effective easy-to-use format the program takes the most common mental health concerns.</p>
                 <button className="project-btn" onClick={ (event) => { window.location.replace('https://play.google.com/store/apps/details?id=com.igrow.mentalhealth.igrow_mental_health') } } >Download now</button>
-            </div>
-
-            <div className='p2-container'>
-                <div className="logo-container">
-                <img className="sm-logo" src={igrow_goals_icon} height="100" />
-                </div>
-                <h3>iGrow Goals</h3>
-                <p>iGrow goals helps you to write, implement and achieve your professional and personal goals, to help make sure you achieve them.</p>
-                <button onClick={ (event) => { window.location.replace('https://play.google.com/store/apps/details?id=com.george.igrow') } } className="project-btn">Download now</button>
             </div>
             
             <div className='p2-container'>
@@ -40,7 +31,7 @@ function Projects() {
                 <img className="sm-logo" src={socialmeme_icon} height="100" />
                 </div>
                 <h3>Social Meme</h3>
-                <p>An open source social media to upload, download or just see your favorite memes for free and get rewarded.</p>
+                <p>An open source social media to upload, download, share or just see your favorite memes for free and get rewarded and get new features every month</p>
                 <button onClick={ (event) => { window.location.replace('https://play.google.com/store/apps/details?id=com.george.socialmeme') } } className="project-btn">Download now</button>
             </div>
 
