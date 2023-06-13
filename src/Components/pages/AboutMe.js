@@ -2,7 +2,7 @@ import TopNavBar from "../TopBarComponent";
 import '../../css/AboutMeStyle.css'
 import github_icon from '../../assets/github_icon.png'
 import instagram_icon from '../../assets/instagram_icon.png'
-import my_picture from '../../assets/my_picture.jpg'
+import my_picture from '../../assets/my_picture.jpeg'
 
 function AboutMe() {
     return(

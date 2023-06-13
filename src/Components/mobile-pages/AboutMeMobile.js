@@ -1,7 +1,7 @@
 import TopNavBarMobileComponent from "../TopNavMobileComponent";
 import github_icon from '../../assets/github_icon.png'
 import instagram_icon from '../../assets/instagram_icon.png'
-import my_picture from '../../assets/my_picture.jpg'
+import my_picture from '../../assets/my_picture.jpeg'
 import '../../css-mobile/AboutMeStyle.css'
 
 function AboutMeMobile() {

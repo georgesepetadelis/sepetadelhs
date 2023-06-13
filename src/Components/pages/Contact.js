@@ -1,7 +1,7 @@
 import TopNavBar from "../TopBarComponent";
 import github_icon from '../../assets/github_icon.png'
 import instagram_icon from '../../assets/instagram_icon.png'
-import my_picture from '../../assets/my_picture.jpg'
+import my_picture from '../../assets/my_picture.jpeg'
 import '../../css/ContactStyle.css'
 
 function Contact() {
@@ -20,7 +20,7 @@ function Contact() {
                 <div class="mask-shadow-desktop"></div>
                 <header>
                     <a href="https://github.com/georgesepetadelis/">
-                    <img src="https://pbs.twimg.com/profile_images/1377349779131396096/A_f2H35A_400x400.jpg" />
+                    <img src={my_picture} />
                     </a>
                     <h1 className="name">GEORGE SEPETADELIS</h1>
                     <h2>Software engineer</h2>

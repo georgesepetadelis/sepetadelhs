@@ -1,6 +1,6 @@
 import '../../css-mobile/HomeStyle.css'
 import TopNavBarMobileComponent from '../TopNavMobileComponent';
-import my_picture from '../../assets/my_picture.jpg'
+import my_picture from '../../assets/my_picture.jpeg'
 import { useNavigate } from 'react-router-dom';
 
 function HomeMobile() {
